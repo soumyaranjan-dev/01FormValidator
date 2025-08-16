@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="./styles/output.css">
+    <script src="../dist/app.js" defer></script>
+</head>
+<body class="bg-black flex flex-col justify-center items-center h-screen">
+    <h1 class="text-white text-3xl">Form Validator</h1>
+    <form action="" class="h-[40%] w-[30%] flex flex-col justify-evenly items-center font-mono" id="formValidator">
+        <input type="text" name="userName" id="userName" class="w-[70%] h-[15%] rounded-xl p-3 focus:-translate-y-2 duration-700" autofocus autocomplete="">
+
+        <input type="text" name="userEmail" id="userEmail" class="w-[70%] h-[15%] rounded-xl p-3 focus:-translate-y-2 duration-700" autocomplete="">
+        <span id="userEmailErr" class="hidden">invalid email</span>
+
+        <input type="text" name="userPW" id="userPW" class="w-[70%] h-[15%] rounded-xl p-3 focus:-translate-y-2 duration-700" autocomplete="new-password">
+        <span id="userPWErr" class="hidden">weak password</span>
+
+        <button class="bg-blue-900 text-white font-bold hover:bg-green-900 hover:text-white duration-700 px-2 py-1 
+        rounded-md" id="submitBtn">submit</button>
+    </form>
+</body>
+</html>

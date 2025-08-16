@@ -5,12 +5,12 @@
 
 ## 🏗️ Project Structure 
 |- dist/
-|-- app.js
+|  -- app.js
 |- src/
-|-- styles/
-|--- input.css
-|--- output.css
-|- app.ts
+|  -- styles/
+|     |-- input.css
+|     |-- output.css
+|  -- app.ts
 |- index.html
 
 ---

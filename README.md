@@ -15,13 +15,11 @@
 
 ---
 
-
 ## 🪶 Features 
 - Username, Email, and Password validation  
 - Real-time feedback with green ✅ or red ❌ outline  
 - Error messages for invalid inputs  
 - Clears input fields on successful submission  
-
 
 ---
 

@@ -4,6 +4,7 @@
 ---
 
 ## 🏗️ Project Structure 
+```
 |- dist/
 |  -- app.js
 |- src/
@@ -12,7 +13,7 @@
 |     |-- output.css
 |  -- app.ts
 |- index.html
-
+```
 ---
 
 ## 🪶 Features 
